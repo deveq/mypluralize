@@ -1,0 +1,31 @@
+{
+  "name": "deveq/mypluralize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deveq/mypluralize.git"
+  },
+  "keywords": [],
+  "author": "deveq <deveq@kakao.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deveq/mypluralize/issues"
+  },
+  "homepage": "https://github.com/deveq/mypluralize#readme",
+  "devDependencies": {
+    "@types/pluralize": "^0.0.29",
+    "chai": "^4.3.6",
+    "mocha": "^10.1.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "pluralize": "^8.0.0"
+  }
+}
